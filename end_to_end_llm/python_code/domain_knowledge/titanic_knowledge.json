@@ -1,0 +1,149 @@
+{
+  "arguments": [
+    {
+      "id": "gender_arg01",
+      "type": "CLAIM",
+      "prev_node": "gender_arg01",
+      "feature_relations": [
+        "Gender.FEMALE > Gender.MALE"
+      ],
+      "features": [
+        "sex"
+      ],
+      "text": "Woman are more likely to survive than men."
+    },
+    {
+      "id": "gender_arg02",
+      "prev_node": "gender_arg01",
+      "type": "SUPPORT",
+      "feature_relations": [
+        "Gender.FEMALE > Gender.MALE"
+      ],
+      "features": [
+        "sex"
+      ],
+      "text": "Women were preferred for the lifeboats."
+    },
+    {
+      "id": "gender_arg03",
+      "prev_node": "gender_arg01",
+      "type": "ATTACK",
+      "feature_relations": [
+        "Gender.FEMALE > Gender.MALE"
+      ],
+      "features": [
+        "sex"
+      ],
+      "text": "Men are stronger than woman."
+    },
+    {
+      "id": "gender_arg04",
+      "prev_node": "gender_arg03",
+      "type": "SUPPORT",
+      "feature_relations": [
+        "Gender.FEMALE > Gender.MALE"
+      ],
+      "features": [
+        "sex"
+      ],
+      "text": "In case of surviving a desaster, prefering passengers for lifeboats makes no sense. Humans will use their instict to survive.\nPeople will put their survival instincts above social criteria."
+    },
+    {
+      "id": "gender_arg05",
+      "prev_node": "gender_arg02",
+      "type": "SUPPORT",
+      "feature_relations": [
+        "Gender.FEMALE > Gender.MALE"
+      ],
+      "features": [
+        "sex"
+      ],
+      "text": "There was a rule „woman and children first“."
+    },
+    {
+      "id": "gender_arg06",
+      "prev_node": "gender_arg05",
+      "type": "SUPPORT",
+      "feature_relations": [
+        "Gender.FEMALE > Gender.MALE"
+      ],
+      "features": [
+        "sex"
+      ],
+      "text": "Second officer Charles Lightoller, who was launching lifeboats from the port side, thought that only women and children were meant to go in the vessels."
+    },
+    {
+      "id": "gender_arg07",
+      "prev_node": "gender_arg05",
+      "type": "ATTACK",
+      "feature_relations": [
+        "Gender.FEMALE > Gender.MALE"
+      ],
+      "features": [
+        "sex"
+      ],
+      "text": "Though 'women and children first' has been an ideal to strive toward, the study authors concluded that 'every man for himself' is the default in life-or-death situations."
+    },
+    {
+      "id": "pc_01",
+      "prev_node": "pc_01",
+      "type": "CLAIM",
+      "feature_relations": [],
+      "features": [
+        "passenger_class"
+      ],
+      "text": "Passenger class is relevant"
+    },
+    {
+      "id": "pc_02",
+      "prev_node": "pc_01",
+      "type": "SUPPORT",
+      "feature_relations": [],
+      "features": [
+        "passenger_class"
+      ],
+      "text": "Passengers in different classes had varying access to lifeboats. Those in First Class had better access to lifeboats compared to those in Third Class. This social stratification affected the distribution of lifeboat spaces."
+    },
+    {
+      "id": "fp_01",
+      "prev_node": "fp_01",
+      "type": "CLAIM",
+      "feature_relations": [],
+      "features": [
+        "fare"
+      ],
+      "text": "Similar to the passenger class, the ticket price can represent social status. A high ticket price indicates a higher status and therefore better access to the rescue boats."
+    },
+    {
+      "id": "a_01",
+      "prev_node": "a_01",
+      "type": "CLAIM",
+      "feature_relations": [],
+      "features": [
+        "age"
+      ],
+      "text": "'Women and children first' was enshrined as ideal behavior for gentlemen in a crisis."
+    },
+    {
+      "id": "a_02",
+      "prev_node": "a_01",
+      "type": "SUPPORT",
+      "feature_relations": [],
+      "features": [
+        "age"
+      ],
+      "text": "Children, especially those accompanied by a parent or guardian, were often given priority in boarding lifeboats. The idea was to prioritize the most vulnerable passengers."
+    },
+    {
+      "id": "a_03",
+      "prev_node": "a_01",
+      "type": "SUPPORT",
+      "feature_relations": [],
+      "features": [
+        "age",
+        "gender"
+      ],
+      "text": "Adult males, particularly those who were young and fit, often had a lower chance of securing a place in a lifeboat. The crew and officers attempted to enforce the \"women and children first\" policy, leading to a lower survival rate for young, able-bodied men."
+    }
+  ]
+}

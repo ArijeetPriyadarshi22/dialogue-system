@@ -1,0 +1,422 @@
+{
+  "arguments": [
+    {
+      "id": "0",
+      "type": "ROOT",
+      "prev_node": "0",
+      "feature_relations": [],
+      "features": [],
+      "text": "diabetes"
+    },
+    {
+      "id": "1",
+      "type": "CLAIM",
+      "prev_node": "0",
+      "feature_relations": [],
+      "features": [
+        "glucose"
+      ],
+      "text": "glucose is relevant."
+    },
+    {
+      "id": "2",
+      "type": "CLAIM",
+      "prev_node": "0",
+      "feature_relations": [],
+      "features": [
+        "blood_pressure"
+      ],
+      "text": "blood pressure is relevant."
+    },
+    {
+      "id": "3",
+      "type": "CLAIM",
+      "prev_node": "0",
+      "feature_relations": [],
+      "features": [
+        "skin_thickness"
+      ],
+      "text": "skin thickness is relevant."
+    },
+    {
+      "id": "4",
+      "type": "CLAIM",
+      "prev_node": "0",
+      "feature_relations": [],
+      "features": [
+        "insulin"
+      ],
+      "text": "insulin is relevant."
+    },
+    {
+      "id": "5",
+      "type": "CLAIM",
+      "prev_node": "0",
+      "feature_relations": [],
+      "features": [
+        "bmi"
+      ],
+      "text": "bmi is relevant."
+    },
+    {
+      "id": "6",
+      "type": "CLAIM",
+      "prev_node": "0",
+      "feature_relations": [],
+      "features": [
+        "age"
+      ],
+      "text": "age is relevant."
+    },
+    {
+      "id": "7",
+      "type": "SUPPORT",
+      "prev_node": "9",
+      "feature_relations": [],
+      "features": [
+        "glucose"
+      ],
+      "text": "Testing helps doctors find diabetes sooner, so they can work with their patients to manage the disease and prevent health problems."
+    },
+    {
+      "id": "9",
+      "type": "SUPPORT",
+      "prev_node": "16",
+      "feature_relations": [],
+      "features": [
+        "glucose"
+      ],
+      "text": "Monitoring glucose levels is crucial for identifying individuals at risk and for diagnosing diabetes."
+    },
+    {
+      "id": "12",
+      "type": "ATTACK",
+      "prev_node": "16",
+      "feature_relations": [],
+      "features": [
+        "glucose"
+      ],
+      "text": "Blood testing equipment that you can buy over the counter, such as a blood glucose meter, cannot diagnose diabetes."
+    },
+    {
+      "id": "13",
+      "type": "SUPPORT",
+      "prev_node": "16",
+      "feature_relations": [],
+      "features": [
+        "glucose"
+      ],
+      "text": "While a single elevated glucose reading might not be definitively diagnostic, a pattern of consistently high glucose levels, particularly when considered in conjunction with other risk factors, strongly suggests an increased likelihood of having or developing diabetes."
+    },
+    {
+      "id": "14",
+      "type": "SUPPORT",
+      "prev_node": "1",
+      "feature_relations": [],
+      "features": [
+        "glucose"
+      ],
+      "text": "Persistently high glucose levels (hyperglycemia) lead to glycation of proteins and lipids, contributing to long-term damage in nerves, organs and blood vessels, exacerbating insulin resistance and increasing the risk of diabetes."
+    },
+    {
+      "id": "15",
+      "type": "SUPPORT",
+      "prev_node": "16",
+      "feature_relations": [],
+      "features": [
+        "glucose"
+      ],
+      "text": "The oral glucose tolerance test (OGTT) helps doctors detect type 2 diabetes, prediabetes, and gestational diabetes."
+    },
+    {
+      "id": "16",
+      "type": "SUPPORT",
+      "prev_node": "1",
+      "feature_relations": [],
+      "features": [
+        "glucose"
+      ],
+      "text": "Glucose level plays a pivotal role in diabetes risk assessment as it directly reflects the body's ability to regulate blood sugar, a process that is fundamentally disrupted in both prediabetes and diabetes."
+    },
+    {
+      "id": "19",
+      "type": "SUPPORT",
+      "prev_node": "2",
+      "feature_relations": [],
+      "features": [
+        "blood_pressure"
+      ],
+      "text": "Blood pressure is a critical indicator, not only frequently co-occurring with diabetes but also serving as an independent predictor of its development."
+    },
+    {
+      "id": "20",
+      "type": "SUPPORT",
+      "prev_node": "24",
+      "feature_relations": [],
+      "features": [
+        "blood_pressure"
+      ],
+      "text": "Identifying hypertension in an individual can flag them as being at a higher risk for developing diabetes, and vice versa, underscoring the importance of a comprehensive approach to managing both conditions for better health outcomes."
+    },
+    {
+      "id": "21",
+      "type": "SUPPORT",
+      "prev_node": "19",
+      "feature_relations": [],
+      "features": [
+        "blood_pressure"
+      ],
+      "text": "There is a strong and complex relationship between blood pressure and diabetes risk. The measurement of blood pressure is a standard component of cardiovascular risk assessment and is also a critical indicator included in many diabetes classification apps."
+    },
+    {
+      "id": "23",
+      "type": "SUPPORT",
+      "prev_node": "21",
+      "feature_relations": [],
+      "features": [
+        "blood_pressure"
+      ],
+      "text": "High blood pressure can impair blood vessels, exacerbating insulin resistance and increasing diabetes risk."
+    },
+    {
+      "id": "24",
+      "type": "SUPPORT",
+      "prev_node": "2",
+      "feature_relations": [],
+      "features": [
+        "blood_pressure"
+      ],
+      "text": "The coexistence of hypertension and diabetes significantly amplifies the risk of developing serious health complications, including cardiovascular disease (such as heart attack and stroke), kidney disease, retinopathy (damage to the blood vessels in the eyes), and other diabetes-related complications."
+    },
+    {
+      "id": "27",
+      "type": "SUPPORT",
+      "prev_node": "32",
+      "feature_relations": [],
+      "features": [
+        "bmi"
+      ],
+      "text": "Even modest weight loss in individuals who are overweight or obese has been shown to significantly improve insulin sensitivity and reduce their risk of developing type 2 diabetes, highlighting the importance of addressing BMI in diabetes prevention strategies."
+    },
+    {
+      "id": "28",
+      "type": "SUPPORT",
+      "prev_node": "32",
+      "feature_relations": [],
+      "features": [
+        "bmi"
+      ],
+      "text": "Given its strong correlation with adiposity and diabetes risk, and the fact that it is a readily available and easily measurable parameter, BMI is an essential component of virtually all diabetes risk assessment tools and apps."
+    },
+    {
+      "id": "29",
+      "type": "SUPPORT",
+      "prev_node": "32",
+      "feature_relations": [],
+      "features": [
+        "bmi"
+      ],
+      "text": "Evidence even suggests that BMI might be a more powerful predictor of diabetes risk than an individual's genetic predisposition, underscoring the critical role of maintaining a healthy weight through lifestyle modifications."
+    },
+    {
+      "id": "31",
+      "type": "SUPPORT",
+      "prev_node": "32",
+      "feature_relations": [],
+      "features": [
+        "bmi"
+      ],
+      "text": "A higher BMI, particularly above 25, is strongly associated with an increased risk of developing type 2 diabetes due to its link with insulin resistance."
+    },
+    {
+      "id": "32",
+      "type": "SUPPORT",
+      "prev_node": "5",
+      "feature_relations": [],
+      "features": [
+        "bmi"
+      ],
+      "text": "Body Mass Index (BMI), a measure of body fat based on height and weight, is strongly linked to diabetes risk."
+    },
+    {
+      "id": "33",
+      "type": "SUPPORT",
+      "prev_node": "28",
+      "feature_relations": [],
+      "features": [
+        "bmi"
+      ],
+      "text": "Therefore, while diabetes classification apps might not directly ask users to measure their skin thickness (except potentially in the context of specific skin conditions), they invariably incorporate BMI, which is a strong correlate of overall adiposity and subcutaneous fat, to indirectly assess this aspect of diabetes risk."
+    },
+    {
+      "id": "35",
+      "type": "SUPPORT",
+      "prev_node": "4",
+      "feature_relations": [],
+      "features": [
+        "insulin"
+      ],
+      "text": "Assessing insulin levels aids in understanding an individual's glycemic control and potential diabetes risk."
+    },
+    {
+      "id": "37",
+      "type": "SUPPORT",
+      "prev_node": "4",
+      "feature_relations": [],
+      "features": [
+        "insulin"
+      ],
+      "text": "Insulin levels, or more commonly, surrogate markers and risk factors associated with insulin resistance, provide insights into the underlying metabolic dysfunction that often precedes diabetes type 2."
+    },
+    {
+      "id": "40",
+      "type": "SUPPORT",
+      "prev_node": "4",
+      "feature_relations": [],
+      "features": [
+        "insulin"
+      ],
+      "text": "Disruptions in insulin's function or production are central to the development of diabetes."
+    },
+    {
+      "id": "41",
+      "type": "SUPPORT",
+      "prev_node": "4",
+      "feature_relations": [],
+      "features": [
+        "insulin"
+      ],
+      "text": "As long as your pancreas can make enough insulin to overcome your cells\u2019 weak response to insulin, your blood glucose levels will stay in the healthy range."
+    },
+    {
+      "id": "42",
+      "type": "SUPPORT",
+      "prev_node": "4",
+      "feature_relations": [],
+      "features": [
+        "insulin"
+      ],
+      "text": "Weight loss of just 5\u201310% can significantly improve insulin sensitivity and reduce diabetes risk."
+    },
+    {
+      "id": "43",
+      "type": "SUPPORT",
+      "prev_node": "42",
+      "feature_relations": [],
+      "features": [
+        "insulin"
+      ],
+      "text": "Taking small steps, such as eating healthier foods and moving more to lose weight, can help reverse insulin resistance and prevent or delay type 2 diabetes in people with prediabetes."
+    },
+    {
+      "id": "44",
+      "type": "SUPPORT",
+      "prev_node": "49",
+      "feature_relations": [],
+      "features": [
+        "skin_thickness"
+      ],
+      "text": "Studies have found that increased skinfold thickness, particularly in the subscapular area (reflecting upper body or truncal fat), is positively associated with a higher risk of developing diabetes type 2 and hypertension."
+    },
+    {
+      "id": "46",
+      "type": "SUPPORT",
+      "prev_node": "3",
+      "feature_relations": [],
+      "features": [
+        "skin_thickness"
+      ],
+      "text": "While not a direct indicator, increased skinfold thickness can reflect higher body fat percentage, which is linked to insulin resistance and diabetes risk."
+    },
+    {
+      "id": "48",
+      "type": "SUPPORT",
+      "prev_node": "46",
+      "feature_relations": [],
+      "features": [
+        "skin_thickness"
+      ],
+      "text": "Diabetes mellitus is associated with a variety of skin manifestations, some of which can be early indicators of the disease or reflect its complications."
+    },
+    {
+      "id": "49",
+      "type": "SUPPORT",
+      "prev_node": "46",
+      "feature_relations": [],
+      "features": [
+        "skin_thickness"
+      ],
+      "text": "Skinfold thickness, which is a measure of subcutaneous fat, has shown a direct correlation with insulin resistance and the risk of developing type 2 diabetes and hypertension."
+    },
+    {
+      "id": "50",
+      "type": "SUPPORT",
+      "prev_node": "46",
+      "feature_relations": [],
+      "features": [
+        "skin_thickness"
+      ],
+      "text": "Research has also explored the relationship between skin thickness itself and diabetes."
+    },
+    {
+      "id": "52",
+      "type": "SUPPORT",
+      "prev_node": "53",
+      "feature_relations": [],
+      "features": [
+        "age"
+      ],
+      "text": "Older adults also tend to be less active, which adds to the risk."
+    },
+    {
+      "id": "53",
+      "type": "SUPPORT",
+      "prev_node": "57",
+      "feature_relations": [],
+      "features": [
+        "age"
+      ],
+      "text": "Aging is associated with increased prevalence of comorbidities such as hypertension and dyslipidemia, which further elevate diabetes risk."
+    },
+    {
+      "id": "55",
+      "type": "SUPPORT",
+      "prev_node": "57",
+      "feature_relations": [],
+      "features": [
+        "age"
+      ],
+      "text": "Age serves as a significant non-modifiable risk factor, with the likelihood of developing diabetes increasing substantially with advancing years due to various physiological changes."
+    },
+    {
+      "id": "56",
+      "type": "SUPPORT",
+      "prev_node": "57",
+      "feature_relations": [],
+      "features": [
+        "age"
+      ],
+      "text": "Epidemiological data from the United States clearly demonstrates the significant impact of age on diabetes prevalence."
+    },
+    {
+      "id": "57",
+      "type": "SUPPORT",
+      "prev_node": "6",
+      "feature_relations": [],
+      "features": [
+        "age"
+      ],
+      "text": "Advancing age is a well-established and significant non-modifiable risk factor for developing type 2 diabetes."
+    },
+    {
+      "id": "59",
+      "type": "SUPPORT",
+      "prev_node": "57",
+      "feature_relations": [],
+      "features": [
+        "age"
+      ],
+      "text": "The prevalence of diabetes increases substantially with age, particularly after the age of 45."
+    }
+  ]
+}

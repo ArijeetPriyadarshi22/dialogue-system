@@ -1,0 +1,442 @@
+{
+  "arguments": [
+    {
+      "id": "0",
+      "type": "ROOT",
+      "prev_node": "0",
+      "feature_relations": [],
+      "features": [],
+      "text": "credit"
+    },
+    {
+      "id": "1",
+      "type": "CLAIM",
+      "prev_node": "0",
+      "feature_relations": [],
+      "features": [
+        "checking_account"
+      ],
+      "text": "checking account is relevant."
+    },
+    {
+      "id": "2",
+      "type": "CLAIM",
+      "prev_node": "0",
+      "feature_relations": [],
+      "features": [
+        "duration"
+      ],
+      "text": "duration is relevant."
+    },
+    {
+      "id": "3",
+      "type": "CLAIM",
+      "prev_node": "0",
+      "feature_relations": [],
+      "features": [
+        "purpose"
+      ],
+      "text": "purpose is relevant."
+    },
+    {
+      "id": "4",
+      "type": "CLAIM",
+      "prev_node": "0",
+      "feature_relations": [],
+      "features": [
+        "amount"
+      ],
+      "text": "amount is relevant."
+    },
+    {
+      "id": "5",
+      "type": "CLAIM",
+      "prev_node": "0",
+      "feature_relations": [],
+      "features": [
+        "savings"
+      ],
+      "text": "savings is relevant."
+    },
+    {
+      "id": "6",
+      "type": "SUPPORT",
+      "prev_node": "11",
+      "feature_relations": [],
+      "features": [
+        "duration"
+      ],
+      "text": "Longer loan terms can lead to a more significant depreciation of the collateral's value, increasing the lender's potential losses in case of default."
+    },
+    {
+      "id": "7",
+      "type": "SUPPORT",
+      "prev_node": "11",
+      "feature_relations": [],
+      "features": [
+        "duration"
+      ],
+      "text": "Longer loan terms increase the uncertainty and risk associated with the loan, requiring lenders to implement stricter underwriting criteria and higher interest rates."
+    },
+    {
+      "id": "8",
+      "type": "SUPPORT",
+      "prev_node": "11",
+      "feature_relations": [],
+      "features": [
+        "duration"
+      ],
+      "text": "Longer loan terms result in lower monthly payments, making the loan more affordable for the borrower in the short term."
+    },
+    {
+      "id": "10",
+      "type": "SUPPORT",
+      "prev_node": "12",
+      "feature_relations": [],
+      "features": [
+        "duration"
+      ],
+      "text": "The longer the repayment period, the greater the potential for unforeseen financial circumstances to affect the borrower's ability to repay."
+    },
+    {
+      "id": "11",
+      "type": "SUPPORT",
+      "prev_node": "2",
+      "feature_relations": [],
+      "features": [
+        "duration"
+      ],
+      "text": "Shorter loan terms reduce the lender's risk, as the loan is repaid more quickly, where as longer loan terms inherently increase the lender's risk exposure."
+    },
+    {
+      "id": "12",
+      "type": "SUPPORT",
+      "prev_node": "2",
+      "feature_relations": [],
+      "features": [
+        "duration"
+      ],
+      "text": "Lenders might offer more favorable interest rates and longer repayment periods for purposes that are perceived as lower risk or that contribute to asset building, such as home improvements or educational expenses."
+    },
+    {
+      "id": "13",
+      "type": "SUPPORT",
+      "prev_node": "11",
+      "feature_relations": [],
+      "features": [
+        "duration"
+      ],
+      "text": "A borrower with a strong credit score and stable income might be approved for a shorter-term personal loan with a lower interest rate, resulting in significant savings over the life of the loan."
+    },
+    {
+      "id": "14",
+      "type": "SUPPORT",
+      "prev_node": "13",
+      "feature_relations": [],
+      "features": [
+        "duration"
+      ],
+      "text": "This allows to accommodate possible changes or growth in the business, ensuring that the credit arrangement remains suitable and sustainable over time."
+    },
+    {
+      "id": "16",
+      "type": "SUPPORT",
+      "prev_node": "24",
+      "feature_relations": [],
+      "features": [
+        "checking_account"
+      ],
+      "text": "Moreover, the balances held in checking accounts offer a real-time view of an applicant's readily available funds, providing an indication of their financial reserves and their capacity to absorb unexpected financial challenges."
+    },
+    {
+      "id": "17",
+      "type": "SUPPORT",
+      "prev_node": "20",
+      "feature_relations": [],
+      "features": [
+        "checking_account"
+      ],
+      "text": "Checking account statements furnish lenders with direct and verifiable evidence of an applicant's income, detailing the source, frequency, and consistency of deposits, which is essential for assessing their ability to meet future loan repayment obligations."
+    },
+    {
+      "id": "18",
+      "type": "SUPPORT",
+      "prev_node": "22",
+      "feature_relations": [],
+      "features": [
+        "checking_account"
+      ],
+      "text": "For loan applicants, maintaining a well-managed checking account is a proactive step towards demonstrating financial responsibility and improving their chances of securing favorable loan terms."
+    },
+    {
+      "id": "19",
+      "type": "SUPPORT",
+      "prev_node": "1",
+      "feature_relations": [],
+      "features": [
+        "checking_account"
+      ],
+      "text": "Maintaining consistent and positive account activity helps build trust with lenders, demonstrating a commitment to financial responsibility."
+    },
+    {
+      "id": "20",
+      "type": "SUPPORT",
+      "prev_node": "1",
+      "feature_relations": [],
+      "features": [
+        "checking_account"
+      ],
+      "text": "Setting up direct deposit of income into the checking account is often viewed positively by lenders, as it provides an added level of assurance regarding the applicant's regular income stream and their ability to repay the loan."
+    },
+    {
+      "id": "21",
+      "type": "SUPPORT",
+      "prev_node": "25",
+      "feature_relations": [],
+      "features": [
+        "checking_account"
+      ],
+      "text": "It allows businesses to evaluate factors like financial stability, payment history, and credit utilization, aiding in informed decision-making and reducing the likelihood of default or late payments."
+    },
+    {
+      "id": "22",
+      "type": "SUPPORT",
+      "prev_node": "19",
+      "feature_relations": [],
+      "features": [
+        "checking_account"
+      ],
+      "text": "Responsible checking account management, characterized by consistent balances, minimal overdrafts, and a healthy pattern of income and expenses, plays a crucial role in building trust with lenders and increasing the likelihood of loan approval."
+    },
+    {
+      "id": "23",
+      "type": "SUPPORT",
+      "prev_node": "22",
+      "feature_relations": [],
+      "features": [
+        "checking_account"
+      ],
+      "text": "Checking account information is particularly relevant to the evaluation of the credit amount, by providing direct evidence of income, cash flow, and financial profile, revealing patterns of financial responsibility and money management habits."
+    },
+    {
+      "id": "24",
+      "type": "SUPPORT",
+      "prev_node": "25",
+      "feature_relations": [],
+      "features": [
+        "checking_account"
+      ],
+      "text": "Furthermore, a long history of responsible checking account management can be viewed very favorably by lenders, as it provides a more extensive track record of the applicant's financial behavior and their reliability in managing their funds over time."
+    },
+    {
+      "id": "25",
+      "type": "SUPPORT",
+      "prev_node": "1",
+      "feature_relations": [],
+      "features": [
+        "checking_account"
+      ],
+      "text": "While not always a strict prerequisite, lenders may have a preference for applicants who have maintained a checking account for a certain length of time, as it can suggest a greater degree of financial stability and experience in managing their finances."
+    },
+    {
+      "id": "26",
+      "type": "SUPPORT",
+      "prev_node": "4",
+      "feature_relations": [],
+      "features": [
+        "amount"
+      ],
+      "text": "A reasonable loan amount that aligns with the applicant's financial profile and a healthy savings balance can significantly enhance the chances of obtaining credit and securing favorable loan terms."
+    },
+    {
+      "id": "27",
+      "type": "SUPPORT",
+      "prev_node": "26",
+      "feature_relations": [],
+      "features": [
+        "amount"
+      ],
+      "text": "A reasonable loan amount leads to more accurate credit decisions and reduces the risk of fraudulent or incomplete applications."
+    },
+    {
+      "id": "29",
+      "type": "SUPPORT",
+      "prev_node": "4",
+      "feature_relations": [],
+      "features": [
+        "amount"
+      ],
+      "text": "Larger loan amounts inherently carry a higher risk for lenders."
+    },
+    {
+      "id": "31",
+      "type": "SUPPORT",
+      "prev_node": "4",
+      "feature_relations": [],
+      "features": [
+        "amount"
+      ],
+      "text": "A lender might be more inclined to approve a larger loan amount for a home improvement project that is likely to enhance the value of an asset compared to a loan for discretionary spending like a vacation."
+    },
+    {
+      "id": "32",
+      "type": "SUPPORT",
+      "prev_node": "31",
+      "feature_relations": [],
+      "features": [
+        "amount"
+      ],
+      "text": "Loans for purposes like home improvements or business expansion might be viewed more favorably for larger amounts compared to discretionary spending."
+    },
+    {
+      "id": "33",
+      "type": "SUPPORT",
+      "prev_node": "36",
+      "feature_relations": [],
+      "features": [
+        "savings"
+      ],
+      "text": "Savings demonstrate financial stability and the ability to manage finances responsibly."
+    },
+    {
+      "id": "34",
+      "type": "SUPPORT",
+      "prev_node": "37",
+      "feature_relations": [],
+      "features": [
+        "savings"
+      ],
+      "text": "For certain loans, such as mortgages, a larger down payment funded by savings reduces the loan amount needed and the lender's risk, increasing the likelihood of approval and potentially leading to better loan terms."
+    },
+    {
+      "id": "35",
+      "type": "SUPPORT",
+      "prev_node": "5",
+      "feature_relations": [],
+      "features": [
+        "savings"
+      ],
+      "text": "Savings can act as a financial buffer, providing lenders with assurance that the borrower has additional funds to fall back on in case of unexpected financial difficulties, thus increasing their capacity to repay the loan."
+    },
+    {
+      "id": "36",
+      "type": "SUPPORT",
+      "prev_node": "37",
+      "feature_relations": [],
+      "features": [
+        "savings"
+      ],
+      "text": "A healthy savings account demonstrates responsible financial management and can offset concerns about other factors like a less-than-perfect credit score."
+    },
+    {
+      "id": "37",
+      "type": "SUPPORT",
+      "prev_node": "5",
+      "feature_relations": [],
+      "features": [
+        "savings"
+      ],
+      "text": "Demonstrating a consistent savings habit and maintaining a healthy savings balance can significantly improve an applicant's loan approval prospects and potentially lead to more favorable terms."
+    },
+    {
+      "id": "38",
+      "type": "SUPPORT",
+      "prev_node": "37",
+      "feature_relations": [],
+      "features": [
+        "savings"
+      ],
+      "text": "Maintaining a well-managed account enhances your credibility and improves your prospects for loan approval."
+    },
+    {
+      "id": "39",
+      "type": "SUPPORT",
+      "prev_node": "37",
+      "feature_relations": [],
+      "features": [
+        "savings"
+      ],
+      "text": "Applicants who demonstrate an ability to save are often perceived as lower-risk borrowers, as they have a financial safety net that can provide a cushion in case of unexpected expenses or disruptions to their income."
+    },
+    {
+      "id": "41",
+      "type": "SUPPORT",
+      "prev_node": "33",
+      "feature_relations": [],
+      "features": [
+        "savings"
+      ],
+      "text": "Regular and consistent deposits that align with the applicant's reported salary, wages, or other income sources provide a strong indication of income stability."
+    },
+    {
+      "id": "43",
+      "type": "SUPPORT",
+      "prev_node": "3",
+      "feature_relations": [],
+      "features": [
+        "purpose"
+      ],
+      "text": "A well-defined loan purpose, clearly articulated within a robust business plan, demonstrates to lenders that the borrower has a strategic vision and a concrete plan for utilizing the funds effectively, significantly increasing the likelihood of approval."
+    },
+    {
+      "id": "45",
+      "type": "SUPPORT",
+      "prev_node": "3",
+      "feature_relations": [],
+      "features": [
+        "purpose"
+      ],
+      "text": "Choosing loan purposes that align with responsible financial behavior and the lender's acceptable uses can significantly enhance the chances of approval and potentially lead to more favorable loan terms."
+    },
+    {
+      "id": "46",
+      "type": "SUPPORT",
+      "prev_node": "45",
+      "feature_relations": [],
+      "features": [
+        "purpose"
+      ],
+      "text": "The loan's purpose plays a crucial role in this assessment, as it can provide valuable insights into the borrower's financial behavior, the stability of their financial situation, and the potential for successful repayment."
+    },
+    {
+      "id": "47",
+      "type": "SUPPORT",
+      "prev_node": "3",
+      "feature_relations": [],
+      "features": [
+        "purpose"
+      ],
+      "text": "By understanding the significance of loan purpose and its potential impact on their application, borrowers can approach lenders with a well-prepared and strategically framed request, increasing their chances of securing the necessary financing for their needs."
+    },
+    {
+      "id": "49",
+      "type": "SUPPORT",
+      "prev_node": "43",
+      "feature_relations": [],
+      "features": [
+        "purpose"
+      ],
+      "text": "In the business sector, a loan request for expanding operations into a new, promising market, supported by a well-researched and compelling business plan, stands a higher chance of approval compared to a loan with a vague or ill-defined purpose."
+    },
+    {
+      "id": "51",
+      "type": "SUPPORT",
+      "prev_node": "45",
+      "feature_relations": [],
+      "features": [
+        "purpose"
+      ],
+      "text": "Several loan purposes are typically viewed as lower risk and favorably by lenders due to their potential to improve the borrower's financial stability or involve investments in tangible assets."
+    },
+    {
+      "id": "52",
+      "type": "SUPPORT",
+      "prev_node": "47",
+      "feature_relations": [],
+      "features": [
+        "purpose"
+      ],
+      "text": "Anecdotes from the lending industry illustrate how loan officers sometimes go the extra mile for borrowers with compelling and responsible loan purposes."
+    }
+  ]
+}

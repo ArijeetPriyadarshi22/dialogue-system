@@ -1,0 +1,24 @@
+=== NEW DIALOGUE SESSION STARTED ===
+Timestamp: 2025-09-17_05-08-14
+
+User: What are chances of man age 42 surviving
+Prompt: Instruction:
+    You are an AI assistant explaining a prediction from a Titanic survival model..
+
+    Input Features:
+    - {'Pclass': 2.0, 'Sex': 1.0, 'Age': 42.0, 'Fare': 13.0}
+
+    Prediction: The model predicts this person would survive.
+
+    SHAP Explanation: The most influential feature was 'Sex', which decreased the outcome.
+    Counterfactual Explanation: Changing Sex to Male would have increased survival chances.
+    Domain Knowledge: ['Woman are more likely to survive than men.', 'Women were preferred for the lifeboats.', 'Men are stronger than woman.', 'In case of surviving a desaster, prefering passengers for lifeboats makes no sense. Humans will use their instict to survive.\nPeople will put their survival instincts above social criteria.', 'There was a rule „woman and children first“.', 'Second officer Charles Lightoller, who was launching lifeboats from the port side, thought that only women and children were meant to go in the vessels.', "Though 'women and children first' has been an ideal to strive toward, the study authors concluded that 'every man for himself' is the default in life-or-death situations."]
+
+    Dialogue so far:
+    
+
+    User: What are chances of man age 42 surviving
+    Give a short explanation for user questions.Don’t overload with jargon unless the user asks for technical details.
+    Only rely on the given information
+AI Response: The model predicts that a 42-year-old man would survive. However, being male was the most influential factor that decreased his chances of survival, according to the model.
+--------------------------------------------------

@@ -1,0 +1,32 @@
+{
+  "input": "Explain why the model predicted survival based on: {'Pclass': 2.0, 'Sex': 1.0, 'Age': 42.0, 'Fare': 13.0}",
+  "output": "The model predicted survival. However, being male (Sex = 1.0) lowered the chance of survival, which aligns with the historical policy of prioritizing women and children on lifeboats."
+}
+{
+  "input": "Which feature most influenced the model's decision?",
+  "output": "The most influential feature was 'Sex'. Since the person is female (Sex = 0.0), it increased the survival prediction."
+}
+{
+    "input": "What would happen if the passenger's sex was changed to female?",
+    "output": "Changing Sex to 0.0 (female) would increase the likelihood of survival, due to historical priority given to women during the evacuation."
+}
+{
+    "input": "Why did the model say the person would not survive ?",
+    "output": "The model likely predicted no survival because the person is male (Sex = 1.0) and from a lower class (Pclass = 3.0), both factors associated with lower survival rates."
+}
+{
+    "input": "What does the model consider most important in deciding survival chances ?",
+    "output": "The most important feature was 'Sex'. Despite being in a lower class, being female (Sex = 0.0) increased the chance of survival."
+}
+{
+    "input": "Compare survival prediction between male and female for ?",
+    "output": "For the same age, fare, and class, a female passenger (Sex = 0.0) would have higher survival chances compared to a male (Sex = 1.0) due to prioritization during evacuation."
+}
+{
+    "input": "Which input features increased survival probability ?",
+    "output": "The features that increased survival were 'Sex' and 'Fare'. Being female and paying a high fare likely placed this person in a safer area of the ship and prioritized for evacuation."
+}
+{
+    "input": "Explain the counterfactual outcome if the fare was lower ?",
+    "output": "If the fare was significantly lower, the survival probability might decrease, since higher fare is associated with better access to lifeboats and higher social status."
+}
